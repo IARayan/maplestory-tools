@@ -1,0 +1,44 @@
+:root {
+  --ms-bg: #0c0a12;
+  --ms-panel: #161022;
+  --ms-line: #3d2f5c;
+  --ms-gold: #e8c65c;
+  --ms-gold-dim: #8a6b2f;
+  --ms-cyan: #5fffd4;
+  --ms-text: #e6e0f2;
+  --ms-muted: #9a90b0;
+  --font-display: 'Cinzel', serif;
+  --font-ui: 'Figtree', system-ui, sans-serif;
+  font-family: var(--font-ui);
+  font-size: 16px;
+  line-height: 1.45;
+  color: var(--ms-text);
+  background: var(--ms-bg);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100svh;
+  background: radial-gradient(120% 80% at 50% -20%, #2a1f45 0%, #0c0a12 55%);
+}
+
+#root {
+  min-height: 100svh;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 1rem 2.5rem;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
